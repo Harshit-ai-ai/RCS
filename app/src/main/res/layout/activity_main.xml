@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:padding="20dp">
+
+    <LinearLayout
+
+        android:orientation="vertical"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:background="#F5F7FA"
+
+        android:padding="20dp">
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo"
+        android:contentDescription="App Logo"
+        android:layout_marginTop="20dp" />
+
+    <!-- App Name -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RCS Safety"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp" />
+
+        <TextView
+            android:text="Protection Status"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/statusText"
+            android:text="Status: Not Active"
+            android:textSize="16sp"
+            android:textColor="#D32F2F"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="This app allows trusted contacts to request your location via SMS without internet."
+            android:textSize="14sp"
+            android:textColor="#000000"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/guideButton"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="16dp"
+        android:text="Setup Guide"/>
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Start Protection"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:backgroundTint="#1976D2"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/addContactButton"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="16dp"
+        android:text="Add Trusted Contact"/>
+
+    <Button
+        android:id="@+id/syncFavoritesButton"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="16dp"
+        android:text="Sync Favorite Contacts"/>
+
+    <TextView
+        android:id="@+id/trustedTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:text="Trusted Contacts"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+        <ListView
+            android:id="@+id/trustedContactsList"
+
+            android:layout_width="match_parent"
+            android:textColor="#000000"
+
+            android:layout_height="250dp"
+
+
+            android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/mapButton"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="16dp"
+        android:text="Open Map"/>
+    <Button
+        android:id="@+id/addRelativeButton"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Add Relative Address"/>
+
+        <Button
+            android:id="@+id/addRelativeMapButton"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Add Relative From Map"/>
+
+    <Button
+        android:id="@+id/setHomeButton"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Set Current Location As Home"/>
+
+    <Button
+        android:id="@+id/rideAccessButton"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Enable Ride Tracking"/>
+
+    <Button
+        android:id="@+id/startRideButton"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Start Ride Monitor"/>
+
+    <Button
+        android:id="@+id/sosButton"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:text="HOLD FOR SOS"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#D32F2F"/>
+
+    </LinearLayout>
+</ScrollView>

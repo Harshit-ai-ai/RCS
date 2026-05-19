@@ -1,0 +1,20 @@
+{
+  "version": 8,
+  "sources": {
+    "offline": {
+      "type": "raster",
+      "tiles": [
+        "mbtiles://delhi/{z}/{x}/{y}"
+      ],
+      "tileSize": 256
+    }
+  },
+
+  "layers": [
+    {
+      "id": "offline-layer",
+      "type": "raster",
+      "source": "offline"
+    }
+  ]
+}

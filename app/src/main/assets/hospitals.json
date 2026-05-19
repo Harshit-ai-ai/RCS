@@ -1,0 +1,652 @@
+[
+  {
+    "name": "Ahmed Hospital Multi Speciality",
+    "lat": 28.4560817,
+    "lon": 77.0400155
+  },
+  {
+    "name": "Anand Hospital",
+    "lat": 28.600817,
+    "lon": 77.34522
+  },
+  {
+    "name": "Anand Medical Centre",
+    "lat": 28.426307,
+    "lon": 77.0947149
+  },
+  {
+    "name": "Anirud Hospital",
+    "lat": 28.3255049,
+    "lon": 76.778212
+  },
+  {
+    "name": "Aryan Hospital Private Limited",
+    "lat": 28.4669699,
+    "lon": 77.0209947
+  },
+  {
+    "name": "Bhatnagar MaternityandNursing Home",
+    "lat": 46.5394992,
+    "lon": -102.8705785
+  },
+  {
+    "name": "Bindal Hospital And Maternity Centre",
+    "lat": 28.4669699,
+    "lon": 77.0209947
+  },
+  {
+    "name": "Chirag Hospital Pvt. Ltd",
+    "lat": 14.4224398,
+    "lon": 77.7145229
+  },
+  {
+    "name": "Chiranjiv Hospital and Maternity Home / Chiranjivi Child Hospital / Chiranjeev Hospital",
+    "lat": 28.3467326,
+    "lon": 76.7596221
+  },
+  {
+    "name": "Dayal Eye Centre",
+    "lat": 28.4517387,
+    "lon": 77.0421171
+  },
+  {
+    "name": "Dharam Raj Hospital",
+    "lat": 28.4594965,
+    "lon": 77.0266383
+  },
+  {
+    "name": "Dr. Ajay S. Gupta",
+    "lat": 28.4594965,
+    "lon": 77.0266383
+  },
+  {
+    "name": "Dr. Ashok Jain",
+    "lat": 28.3752154,
+    "lon": 76.9120529
+  },
+  {
+    "name": "Dr. R.N Yadav Eye Care Centre",
+    "lat": 28.6007027,
+    "lon": 77.1043255
+  },
+  {
+    "name": "Florence Nursing Home",
+    "lat": 33.6716554,
+    "lon": 73.074954
+  },
+  {
+    "name": "Geeta Nursing Home / Geeta Surgical and Ultrasound Centre",
+    "lat": 13.0536607,
+    "lon": 80.1983149
+  },
+  {
+    "name": "Goel Nursing Home",
+    "lat": 32.1778915,
+    "lon": 74.4842273
+  },
+  {
+    "name": "Gupta Hospital",
+    "lat": 28.4625522,
+    "lon": 77.0283798
+  },
+  {
+    "name": "Nursing Home",
+    "lat": 28.4573024,
+    "lon": 77.0361078
+  },
+  {
+    "name": "Jain Hospital",
+    "lat": 27.6542858,
+    "lon": 76.8846014
+  },
+  {
+    "name": "Jain Sant Phool Chand Ji Charitable Hospital",
+    "lat": 28.6496575,
+    "lon": 77.3379937
+  },
+  {
+    "name": "Kanshi Ram Medical Services",
+    "lat": 28.4594965,
+    "lon": 77.0266383
+  },
+  {
+    "name": "Khanna Diagnostic Centre and Path Lab",
+    "lat": 29.3905173,
+    "lon": 76.9604353
+  },
+  {
+    "name": "Kharbanda Maternity and Nursing Home",
+    "lat": 28.4683613,
+    "lon": 77.0255377
+  },
+  {
+    "name": "Kumar Medical Park",
+    "lat": 28.3808658,
+    "lon": 77.3142692
+  },
+  {
+    "name": "Lotus Hospital Gurgoan",
+    "lat": 28.4693018,
+    "lon": 77.0341722
+  },
+  {
+    "name": "Mangalam Hospital and Heart Centre",
+    "lat": 28.455072,
+    "lon": 77.014676
+  },
+  {
+    "name": "Manju Hospital",
+    "lat": 28.4594965,
+    "lon": 77.0266383
+  },
+  {
+    "name": "Marwah Clinic",
+    "lat": 28.4650453,
+    "lon": 77.1007117
+  },
+  {
+    "name": "Mathur Medical And Child Care Centre",
+    "lat": 28.455354,
+    "lon": 77.032304
+  },
+  {
+    "name": "Max Hospital",
+    "lat": 28.4753855,
+    "lon": 77.0756742
+  },
+  {
+    "name": "Medanta The Medicity Global Health Pvt Ltd",
+    "lat": 28.4357613,
+    "lon": 77.0406147
+  },
+  {
+    "name": "Mission Charitable Hospital",
+    "lat": 28.3754567,
+    "lon": 76.9066829
+  },
+  {
+    "name": "Nagpal Nursing Home",
+    "lat": 28.4707417,
+    "lon": 77.0463719
+  },
+  {
+    "name": "Nangia Hospital Ent and Maternity",
+    "lat": 28.4539065,
+    "lon": 77.020619
+  },
+  {
+    "name": "Narula Hospital",
+    "lat": 28.4594965,
+    "lon": 77.0266383
+  },
+  {
+    "name": "Ob-Gyn Center",
+    "lat": 28.458306,
+    "lon": 77.035796
+  },
+  {
+    "name": "Orbit Hospital",
+    "lat": 28.4532055,
+    "lon": 77.0480158
+  },
+  {
+    "name": "Parashar Hospital",
+    "lat": 28.4563129,
+    "lon": 77.022695
+  },
+  {
+    "name": "Park Hospital",
+    "lat": 28.5120259,
+    "lon": 77.03193
+  },
+  {
+    "name": "Park Medicenters And Institutions Pvt Ltd.",
+    "lat": 28.4171718,
+    "lon": 77.0475421
+  },
+  {
+    "name": "Prateed Nursing Home And Polyclinic",
+    "lat": 28.4748343,
+    "lon": 77.0068111
+  },
+  {
+    "name": "Prime Multispeciality Hospital",
+    "lat": 28.4514004,
+    "lon": 77.0168634
+  },
+  {
+    "name": "R K Hospital",
+    "lat": 19.218196,
+    "lon": 73.0880882
+  },
+  {
+    "name": "Rajesh Hospital",
+    "lat": 28.354726,
+    "lon": 76.9375455
+  },
+  {
+    "name": "Rajiv Memorial Eye Infirmary",
+    "lat": 28.4625522,
+    "lon": 77.0283798
+  },
+  {
+    "name": "Rama Hospital Nursing Home / Rama Krishna Hospital",
+    "lat": 28.4594965,
+    "lon": 77.0266383
+  },
+  {
+    "name": "Rathore Imt Hospital",
+    "lat": 28.3754567,
+    "lon": 76.9066829
+  },
+  {
+    "name": "Sai Dharamraj Hospital",
+    "lat": 28.3950645,
+    "lon": 77.046534
+  },
+  {
+    "name": "Sangwan Hospital",
+    "lat": 28.4472778,
+    "lon": 76.9946535
+  },
+  {
+    "name": "Satyam Hospital",
+    "lat": 28.4853382,
+    "lon": 77.0186621
+  },
+  {
+    "name": "Sethi Hospital",
+    "lat": 28.4567795,
+    "lon": 77.0219311
+  },
+  {
+    "name": "Shalu Paediatric and Trauma Hospital",
+    "lat": 28.473376,
+    "lon": 77.0335963
+  },
+  {
+    "name": "Shanta Hospital",
+    "lat": 28.4669699,
+    "lon": 77.0209947
+  },
+  {
+    "name": "Sheetla Hospital And Eye Institute Private Ltd",
+    "lat": 28.4683613,
+    "lon": 77.0255377
+  },
+  {
+    "name": "Shiromani Sai Heart and Trauma Centre",
+    "lat": 28.4594965,
+    "lon": 77.0266383
+  },
+  {
+    "name": "Shiva Hospital",
+    "lat": 28.4757428,
+    "lon": 77.0380271
+  },
+  {
+    "name": "Shivam Hospital",
+    "lat": 28.4587807,
+    "lon": 77.0524887
+  },
+  {
+    "name": "Shree Tirupati Balaji Hospital",
+    "lat": 28.5093045,
+    "lon": 77.0306288
+  },
+  {
+    "name": "Shri Ram Dental Care and Orthodontic Center",
+    "lat": 28.4785131,
+    "lon": 77.0600442
+  },
+  {
+    "name": "Sidhesh Hospital",
+    "lat": 28.4775758,
+    "lon": 77.0820378
+  },
+  {
+    "name": "Sikka Maternity And Surgical Center",
+    "lat": 28.4705178,
+    "lon": 77.1023597
+  },
+  {
+    "name": "Sita Hospital",
+    "lat": 29.1383854,
+    "lon": 77.0272501
+  },
+  {
+    "name": "Sita Ram Bhartia Clinic",
+    "lat": 28.4677684,
+    "lon": 77.0812587
+  },
+  {
+    "name": "Siyaram Hospital",
+    "lat": 55.8304307,
+    "lon": 49.0660806
+  },
+  {
+    "name": "Sneh Hospital",
+    "lat": 28.7055148,
+    "lon": 77.176282
+  },
+  {
+    "name": "Sparsh Hospital",
+    "lat": 19.2306852,
+    "lon": 72.8407885
+  },
+  {
+    "name": "Sree Sankara Ayurveda Vaidyasala",
+    "lat": 28.468064,
+    "lon": 77.095963
+  },
+  {
+    "name": "Sukhmani Hospital Pvt. Ltd",
+    "lat": 26.8030815,
+    "lon": 80.8908544
+  },
+  {
+    "name": "Surgi Center Clinic",
+    "lat": 28.4930297,
+    "lon": 77.0866765
+  },
+  {
+    "name": "Taneja Hospital",
+    "lat": 28.466283,
+    "lon": 77.013852
+  },
+  {
+    "name": "The Cradle Hospital",
+    "lat": 28.4707417,
+    "lon": 77.0463719
+  },
+  {
+    "name": "Tirath Ram Hospitals Pvt Ltd",
+    "lat": 28.4570115,
+    "lon": 77.0202295
+  },
+  {
+    "name": "Vatsalya Medical Centre",
+    "lat": 28.4709658,
+    "lon": 77.0176977
+  },
+  {
+    "name": "Verma E.N.T. Hospital",
+    "lat": 28.4625522,
+    "lon": 77.0283798
+  },
+  {
+    "name": "Yashroop Medical Centre",
+    "lat": 28.3688093,
+    "lon": 76.9268541
+  },
+  {
+    "name": "Alchemist Hospitals Ltd",
+    "lat": 28.4482933,
+    "lon": 77.0955136
+  },
+  {
+    "name": "Alps Hospital Limited",
+    "lat": 28.5138999,
+    "lon": 77.0812691
+  },
+  {
+    "name": "Centre For Sight",
+    "lat": 28.4594965,
+    "lon": 77.0266383
+  },
+  {
+    "name": "Dr. S.K. Berera Clinic",
+    "lat": 28.4634412,
+    "lon": 77.0767557
+  },
+  {
+    "name": "Kailash Nursing Home",
+    "lat": 28.4916812,
+    "lon": 77.094897
+  },
+  {
+    "name": "Mayom Hospital (A Unit Of Unitech Medical Chartible Trust",
+    "lat": -37.7052598,
+    "lon": 175.2082123
+  },
+  {
+    "name": "Paras Hospital",
+    "lat": 28.6353011,
+    "lon": 77.2248008
+  },
+  {
+    "name": "Privat Hospital / Privat Hospital Dr Sachdev Pvt Ltd (A)",
+    "lat": 28.4826659,
+    "lon": 77.0785701
+  },
+  {
+    "name": "Uma Sanjeevani Health Centre Pvt Ltd / Uma Sanjeewani Hospital",
+    "lat": 28.4825979,
+    "lon": 77.0861074
+  },
+  {
+    "name": "Umkal Hospital And M. P. Heart Research Institute",
+    "lat": 28.4715182,
+    "lon": 77.0733208
+  },
+  {
+    "name": "Arunodaya Deseret Eye Hospital",
+    "lat": 28.6042922,
+    "lon": 77.3479096
+  },
+  {
+    "name": "Surgicare Hospital",
+    "lat": 28.4262171,
+    "lon": 77.096765
+  },
+  {
+    "name": "World Laparoscopy Hospital",
+    "lat": 28.4936018,
+    "lon": 77.088325
+  },
+  {
+    "name": "Kartik Hospital",
+    "lat": 55.8304307,
+    "lon": 49.0660806
+  },
+  {
+    "name": "R.N. Hospital and Maternity Centre",
+    "lat": 28.3738339,
+    "lon": 76.8969724
+  },
+  {
+    "name": "Rockland Hospital Limited",
+    "lat": 28.3683154,
+    "lon": 76.9324697
+  },
+  {
+    "name": "Gobind Hospital",
+    "lat": 28.4594965,
+    "lon": 77.0266383
+  },
+  {
+    "name": "Sai H0Spital and Trauma Centre",
+    "lat": 28.4594965,
+    "lon": 77.0266383
+  },
+  {
+    "name": "Shree Sai Hospital and Trauma Centre",
+    "lat": 28.2944019,
+    "lon": 76.8466897
+  },
+  {
+    "name": "Chc Pataudi",
+    "lat": 28.3255049,
+    "lon": 76.778212
+  },
+  {
+    "name": "Chc Farukhnagar",
+    "lat": 28.4671712,
+    "lon": 76.8862435
+  },
+  {
+    "name": "Jyoti Hospital and Trauma Centre",
+    "lat": 28.4225732,
+    "lon": 76.9026943
+  },
+  {
+    "name": "Kailash Hospital",
+    "lat": 17.3981315,
+    "lon": 78.5124411
+  },
+  {
+    "name": "Kalawati Hospital and Maternity Center",
+    "lat": 28.4642254,
+    "lon": 76.8712119
+  },
+  {
+    "name": "Artemis Health Institute",
+    "lat": 28.4594965,
+    "lon": 77.0266383
+  },
+  {
+    "name": "Metro Hospital and Heart Institute, Gurgaon",
+    "lat": 28.5003715,
+    "lon": 77.0414187
+  },
+  {
+    "name": "Neelkanth Hospital",
+    "lat": 28.6139391,
+    "lon": 77.2090212
+  },
+  {
+    "name": "Sahaj Dental Clinic",
+    "lat": 28.6139391,
+    "lon": 77.2090212
+  },
+  {
+    "name": "Kathuria Hospital",
+    "lat": 28.4348057,
+    "lon": 77.0032153
+  },
+  {
+    "name": "Anand Hospital\\n",
+    "lat": 28.4428081,
+    "lon": 77.0126957
+  },
+  {
+    "name": "The Cradle",
+    "lat": 28.4594965,
+    "lon": 77.0266383
+  },
+  {
+    "name": "Paras Hospitals\\n",
+    "lat": 28.4749852,
+    "lon": 77.0756754
+  },
+  {
+    "name": "Ahooja Eye and Dental Institute",
+    "lat": 28.4636592,
+    "lon": 77.0302472
+  },
+  {
+    "name": "Arihant Hospital",
+    "lat": 28.4219753,
+    "lon": 77.0791496
+  },
+  {
+    "name": "Artemis Health Institute / Arth Medical Centre",
+    "lat": 28.429647,
+    "lon": 77.06652
+  },
+  {
+    "name": "Bhardwaj Hospital",
+    "lat": 28.492663,
+    "lon": 77.0060658
+  },
+  {
+    "name": "Lall Eye Care Centre",
+    "lat": 28.4683613,
+    "lon": 77.0255377
+  },
+  {
+    "name": "Lall Nursing and Maternity Home",
+    "lat": 28.4669288,
+    "lon": 77.0271478
+  },
+  {
+    "name": "Malik Hospital",
+    "lat": 28.4663599,
+    "lon": 77.1003219
+  },
+  {
+    "name": "Mayom Hospital",
+    "lat": -37.7052598,
+    "lon": 175.2082123
+  },
+  {
+    "name": "Alchemist Hospital, Gurgaon",
+    "lat": 28.4473955,
+    "lon": 77.0962582
+  },
+  {
+    "name": "Sethi Hospital",
+    "lat": 28.4567795,
+    "lon": 77.0219311
+  },
+  {
+    "name": "Shri Balaji Hospital and Trauma Centre",
+    "lat": 28.4573069,
+    "lon": 76.9904789
+  },
+  {
+    "name": "Sitaram Bhartia Clinic",
+    "lat": 28.4677684,
+    "lon": 77.0812587
+  },
+  {
+    "name": "Sunrise Hospital",
+    "lat": 28.4437428,
+    "lon": 77.0111419
+  },
+  {
+    "name": "The Dental Lounge",
+    "lat": 28.4668715,
+    "lon": 77.0977331
+  },
+  {
+    "name": "Nova Care Clinic",
+    "lat": 28.4683613,
+    "lon": 77.0255377
+  },
+  {
+    "name": "Centre For Sight, Gurgaon, New Railway Road",
+    "lat": 28.673523,
+    "lon": 77.3163754
+  },
+  {
+    "name": "Privat Hospital",
+    "lat": 28.479881,
+    "lon": 77.080826
+  },
+  {
+    "name": "World Laparoscopy Hospital,",
+    "lat": 28.4936018,
+    "lon": 77.088325
+  },
+  {
+    "name": "Rockland Manesar, Gurgaon",
+    "lat": 28.3688093,
+    "lon": 76.9268541
+  },
+  {
+    "name": "Chc Sohna",
+    "lat": 28.3298823,
+    "lon": 77.0673928
+  },
+  {
+    "name": "City Care Hospital",
+    "lat": 28.1023894,
+    "lon": 76.9931074
+  },
+  {
+    "name": "Guru Harkrishan Sahib (C) Eye Hospital Trust, Soha",
+    "lat": 28.4594965,
+    "lon": 77.0266383
+  }
+]
