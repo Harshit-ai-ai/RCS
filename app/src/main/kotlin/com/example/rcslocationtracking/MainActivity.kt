@@ -1,6 +1,7 @@
 package com.example.rcslocationtracking
 
 import android.Manifest
+import com.example.rcslocationtracking.monitor.SafetyBubbleManager
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.net.Uri
@@ -52,9 +53,12 @@ class MainActivity : AppCompatActivity() {
     private lateinit var mapButton: Button
     private lateinit var rideAccessButton: Button
     private lateinit var setHomeButton: Button
+    private lateinit var setAwayTimeButton: Button
     private lateinit var startRideButton: Button
     private lateinit var addRelativeButton: Button
     private lateinit var addRelativeMapButton: Button
+    private lateinit var safetyLevelText: TextView
+    private lateinit var safetyScoreText: TextView
 
     private val REQ_SMS = 101
     private val REQ_LOCATION = 102
@@ -105,6 +109,18 @@ class MainActivity : AppCompatActivity() {
         }
 
         statusText = findViewById(R.id.statusText)
+
+        safetyLevelText =
+            findViewById(
+                R.id.safetyLevelText
+            )
+
+        safetyScoreText =
+            findViewById(
+                R.id.safetyScoreText
+            )
+
+        updateSafetyBubble()
 
 
         startButton =
@@ -215,6 +231,16 @@ class MainActivity : AppCompatActivity() {
             saveCurrentHome()
         }
 
+        setAwayTimeButton =
+            findViewById(
+                R.id.setAwayTimeButton
+            )
+
+        setAwayTimeButton.setOnClickListener {
+
+            showAwayTimeDialog()
+        }
+
         guideButton=
             findViewById(
                 R.id.guideButton
@@ -224,10 +250,6 @@ class MainActivity : AppCompatActivity() {
         }
 
         startRideButton =findViewById(R.id.startRideButton)
-        startRideButton =
-            findViewById(
-                R.id.startRideButton
-            )
 
         startRideButton.setOnClickListener {
 
@@ -300,8 +322,8 @@ class MainActivity : AppCompatActivity() {
 
             PeriodicWorkRequestBuilder<HomeMonitorWorker>(
 
-                1,
-                TimeUnit.HOURS
+                15,
+                TimeUnit.MINUTES
 
             ).build()
 
@@ -401,6 +423,120 @@ class MainActivity : AppCompatActivity() {
                 }
             }
         )
+    }
+
+    private fun showAwayTimeDialog() {
+
+        val input =
+            EditText(this)
+
+        input.hint =
+            "Hours"
+
+        input.setText(
+
+            HomeLocationManager
+                .getAwayTimeHours(
+                    this
+                )
+                .toString()
+        )
+
+        AlertDialog.Builder(this)
+
+            .setTitle(
+                "Away Alert Time"
+            )
+
+            .setMessage(
+                "After how many hours outside home should trusted contacts receive your location?"
+            )
+
+            .setView(
+                input
+            )
+
+            .setPositiveButton(
+                "Save"
+            ) { _, _ ->
+
+                val hours =
+                    input.text
+                        .toString()
+                        .toIntOrNull()
+
+                if (
+
+                    hours != null &&
+                    hours > 0
+
+                ) {
+
+                    HomeLocationManager
+                        .saveAwayTimeHours(
+                            this,
+                            hours
+                        )
+
+                    Toast.makeText(
+
+                        this,
+
+                        "Alert time set to $hours hour(s)",
+
+                        Toast.LENGTH_LONG
+
+                    ).show()
+                }
+            }
+
+            .setNegativeButton(
+                "Cancel",
+                null
+            )
+
+            .show()
+    }
+
+    private fun updateSafetyBubble() {
+
+        val score =
+            HomeLocationManager
+                .getSafetyScore(
+                    this
+                )
+
+        val level =
+            HomeLocationManager
+                .getSafetyLevel(
+                    this
+                )
+
+        val displayLevel =
+
+            when (level) {
+
+                SafetyBubbleManager.SAFE ->
+                    "🟢 SAFE"
+
+                SafetyBubbleManager.ALERT ->
+                    "🟡 ALERT"
+
+                SafetyBubbleManager.ELEVATED ->
+                    "🟠 ELEVATED"
+
+                SafetyBubbleManager.HIGH ->
+                    "🔴 HIGH RISK"
+
+                else ->
+                    "⚫ CRITICAL"
+            }
+
+        safetyLevelText.text =
+            displayLevel
+
+        safetyScoreText.text =
+            "Risk Score: $score/100"
     }
 
     private fun updateTrustedContactsView() {
